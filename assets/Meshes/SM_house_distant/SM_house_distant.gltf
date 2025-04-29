@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 7824,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 5445,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -9.7713871, -0.0318166353, -11.2941208 ],
+			"max": [ 9.26812649, 6.71026087, 7.93500328 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 5445,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 5445,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 5445,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 5445,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_house_distant.bin",
+			"byteLength": 320568
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 15648,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 65340,
+			"byteOffset": 15648,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 65340,
+			"byteOffset": 80988,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 87120,
+			"byteOffset": 146328,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 43560,
+			"byteOffset": 233448,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 43560,
+			"byteOffset": 277008,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_distant_house_BaseColor.png"
+		},
+		{
+			"uri": "MI_distant_house_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_distant_house_Occlusion.png"
+		},
+		{
+			"uri": "T_distant_house_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_distant_house",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_house_distant",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_distant_house_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_distant_house_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_distant_house_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_distant_house_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

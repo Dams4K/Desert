@@ -1,0 +1,174 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2028,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 392,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -8.10623169e-05, -0.0781942233, -7 ],
+			"max": [ 3.5, 0.0346800834, 2.0690254e-09 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 392,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 392,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 392,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 392,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_road.bin",
+			"byteLength": 26008
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4056,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4704,
+			"byteOffset": 4056,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4704,
+			"byteOffset": 8760,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6272,
+			"byteOffset": 13464,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3136,
+			"byteOffset": 19736,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3136,
+			"byteOffset": 22872,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_road_BaseColor.png"
+		},
+		{
+			"uri": "MI_road_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_road_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_road",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_road",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_road_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_road_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_road_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

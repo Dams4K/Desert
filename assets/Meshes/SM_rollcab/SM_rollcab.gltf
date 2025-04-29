@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4368,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1461,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.000430107117, 7.16851201e-09, -1.1312612e-07 ],
+			"max": [ 0.599999964, 0.699999988, 0.505999923 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1461,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1461,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1461,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1461,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_rollcab.bin",
+			"byteLength": 90552
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8736,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17532,
+			"byteOffset": 8736,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17532,
+			"byteOffset": 26268,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 23376,
+			"byteOffset": 43800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11688,
+			"byteOffset": 67176,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11688,
+			"byteOffset": 78864,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_rollcab_toolboard_BaseColor.png"
+		},
+		{
+			"uri": "MI_rollcab_toolboard_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_rollcab_toolboard_Occlusion.png"
+		},
+		{
+			"uri": "T_rollcab_toolboard_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_rollcab_toolboard",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_rollcab",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_rollcab_toolboard_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_rollcab_toolboard_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_rollcab_toolboard_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_rollcab_toolboard_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

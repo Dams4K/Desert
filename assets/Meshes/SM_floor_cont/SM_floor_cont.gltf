@@ -1,0 +1,174 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2292,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 770,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.000306129456, 0.169999972, 0.000175205874 ],
+			"max": [ 9.00030708, 0.200000301, 2.00017524 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 770,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 770,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 770,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 770,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_floor_cont.bin",
+			"byteLength": 47704
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4584,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9240,
+			"byteOffset": 4584,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9240,
+			"byteOffset": 13824,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12320,
+			"byteOffset": 23064,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6160,
+			"byteOffset": 35384,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6160,
+			"byteOffset": 41544,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_parquet_BaseColor.png"
+		},
+		{
+			"uri": "MI_parquet_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_parquet_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_parquet",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_floor_cont",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_parquet_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_parquet_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_parquet_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

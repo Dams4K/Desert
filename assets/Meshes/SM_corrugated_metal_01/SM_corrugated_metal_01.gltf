@@ -1,0 +1,175 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 120,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 42,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, 0, -8.14603318e-09 ],
+			"max": [ 1.00393832, 0.0500004031, 2.5 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 42,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 42,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 42,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 42,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_corrugated_metal_01.bin",
+			"byteLength": 2472
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 120,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 504,
+			"byteOffset": 120,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 504,
+			"byteOffset": 624,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 672,
+			"byteOffset": 1128,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 336,
+			"byteOffset": 1800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 336,
+			"byteOffset": 2136,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_corrugated_metal_BaseColor.png"
+		},
+		{
+			"uri": "MI_corrugated_metal_MetallicRoughness.png"
+		},
+		{
+			"uri": "T_corrugated_metal_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_corrugated_metal",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_corrugated_metal_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_corrugated_metal_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_corrugated_metal_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_corrugated_metal_N",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

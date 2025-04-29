@@ -1,0 +1,170 @@
+[gd_scene load_steps=20 format=3 uid="uid://x24tnpg10g16"]
+
+[ext_resource type="Script" uid="uid://cosaj1g47ktxy" path="res://cloud_sky/sun.gd" id="1_036b0"]
+[ext_resource type="Sky" uid="uid://b6ffjku47471j" path="res://cloud_sky/clouds_sky.tres" id="1_aqk2v"]
+[ext_resource type="Texture2D" uid="uid://dvg43lumc8i3i" path="res://assets/textures/T_sand_B.PNG" id="3_036b0"]
+[ext_resource type="PackedScene" uid="uid://ni12miatrf64" path="res://assets/Meshes/SM_car/SM_car.gltf" id="3_tlwt5"]
+[ext_resource type="Texture2D" uid="uid://bfa75ofbe0rlu" path="res://assets/textures/T_sand_N.PNG" id="4_dwbse"]
+[ext_resource type="PackedScene" uid="uid://wd01rarem7v5" path="res://assets/Meshes/SM_tyre/SM_tyre.gltf" id="6_dwbse"]
+[ext_resource type="PackedScene" uid="uid://okgbwnechvpo" path="res://assets/Meshes/SM_billboard/SM_billboard.gltf" id="7_pkg7o"]
+[ext_resource type="PackedScene" uid="uid://drad3xslmlkse" path="res://house.tscn" id="8_gbfbk"]
+
+[sub_resource type="Gradient" id="Gradient_036b0"]
+colors = PackedColorArray(0, 0, 0, 1, 0.986561, 0.931812, 0.84296, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dwbse"]
+gradient = SubResource("Gradient_036b0")
+
+[sub_resource type="Environment" id="Environment_aqk2v"]
+background_mode = 2
+background_energy_multiplier = 4.0
+sky = ExtResource("1_aqk2v")
+sky_rotation = Vector3(0, 0, 0.0523599)
+tonemap_mode = 4
+tonemap_exposure = 1.2
+tonemap_white = 3.53
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.972308, 0.903745, 0.790832, 1)
+fog_density = 0.0005
+fog_sky_affect = 0.2
+adjustment_enabled = true
+adjustment_contrast = 1.3
+adjustment_saturation = 1.2
+adjustment_color_correction = SubResource("GradientTexture2D_dwbse")
+
+[sub_resource type="Gradient" id="Gradient_gv5m4"]
+offsets = PackedFloat32Array(0.2, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_f3sb7"]
+noise_type = 2
+frequency = 0.03
+cellular_jitter = 3.0
+cellular_return_type = 0
+domain_warp_enabled = true
+domain_warp_type = 1
+domain_warp_amplitude = 50.0
+domain_warp_fractal_type = 2
+domain_warp_fractal_lacunarity = 1.5
+domain_warp_fractal_gain = 1.0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_fj7yv"]
+seamless = true
+color_ramp = SubResource("Gradient_gv5m4")
+noise = SubResource("FastNoiseLite_f3sb7")
+
+[sub_resource type="Terrain3DMaterial" id="Terrain3DMaterial_tlwt5"]
+_shader_parameters = {
+&"bias_distance": 512.0,
+&"blend_sharpness": 0.87,
+&"depth_blur": 0.0,
+&"dual_scale_far": 170.0,
+&"dual_scale_near": 100.0,
+&"dual_scale_reduction": 0.3,
+&"dual_scale_texture": 0,
+&"enable_macro_variation": true,
+&"enable_projection": true,
+&"height_blending": true,
+&"macro_variation1": Color(1, 1, 1, 1),
+&"macro_variation2": Color(1, 1, 1, 1),
+&"macro_variation_slope": 0.333,
+&"mipmap_bias": 1.0,
+&"noise1_angle": 0.0,
+&"noise1_offset": Vector2(0.5, 0.5),
+&"noise1_scale": 0.04,
+&"noise2_scale": 0.076,
+&"noise3_scale": 0.225,
+&"noise_texture": SubResource("NoiseTexture2D_fj7yv"),
+&"projection_angular_division": 2.0,
+&"projection_threshold": 0.8,
+&"tri_scale_reduction": 0.3,
+&"world_noise_fragment_normals": false,
+&"world_noise_height": 12.0,
+&"world_noise_lod_distance": 7500.0,
+&"world_noise_max_octaves": 4,
+&"world_noise_min_octaves": 2,
+&"world_noise_offset": Vector3(0, 0, 0),
+&"world_noise_region_blend": 0.33,
+&"world_noise_scale": 5.0,
+&"world_space_normal_blend": true
+}
+world_background = 2
+dual_scaling = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aqk2v"]
+transparency = 4
+cull_mode = 2
+vertex_color_use_as_albedo = true
+backlight_enabled = true
+backlight = Color(0.5, 0.5, 0.5, 1)
+distance_fade_mode = 1
+distance_fade_min_distance = 128.0
+distance_fade_max_distance = 96.0
+
+[sub_resource type="Terrain3DMeshAsset" id="Terrain3DMeshAsset_036b0"]
+generated_type = 1
+height_offset = 0.5
+material_override = SubResource("StandardMaterial3D_aqk2v")
+last_lod = 0
+last_shadow_lod = 0
+lod0_range = 128.0
+
+[sub_resource type="Terrain3DTextureAsset" id="Terrain3DTextureAsset_aqk2v"]
+name = "T_sand_B"
+albedo_color = Color(1.4, 1.4, 1.4, 1)
+albedo_texture = ExtResource("3_036b0")
+normal_texture = ExtResource("4_dwbse")
+normal_depth = 0.6
+roughness = 0.8
+uv_scale = 0.3
+detiling_rotation = 0.17
+detiling_shift = 0.27
+
+[sub_resource type="Terrain3DAssets" id="Terrain3DAssets_dwbse"]
+mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_036b0")])
+texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_aqk2v")])
+
+[node name="World" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_aqk2v")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.536054, 0.570298, 0.62242, 0.789023, 0.60062, 0.129216, -0.300147, 0.560371, -0.771943, 0, 0, 0)
+light_color = Color(0.977067, 0.940647, 0.857551, 1)
+light_energy = 8.0
+light_indirect_energy = 1.555
+shadow_enabled = true
+script = ExtResource("1_036b0")
+
+[node name="Terrain3D" type="Terrain3D" parent="."]
+data_directory = "res://assets/landscapes"
+material = SubResource("Terrain3DMaterial_tlwt5")
+assets = SubResource("Terrain3DAssets_dwbse")
+mesh_size = 16
+top_level = true
+metadata/_edit_lock_ = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.747404, 0, -0.66437, 0, 1, 0, 0.66437, 0, 0.747404, -0.133208, 2.54133, 9.24371)
+
+[node name="SM_car" parent="." instance=ExtResource("3_tlwt5")]
+transform = Transform3D(-0.172446, -0.862563, -0.475655, 0.963126, -0.248896, 0.102177, -0.206523, -0.440494, 0.873678, 0.606644, 0.687435, 0.419296)
+
+[node name="SM_tyre" parent="." instance=ExtResource("6_dwbse")]
+transform = Transform3D(1, 0, 0, 0, 0.961035, -0.276426, 0, 0.276426, 0.961035, 1.75509, -0.120145, 2.91202)
+
+[node name="SM_tyre2" parent="." instance=ExtResource("6_dwbse")]
+transform = Transform3D(0.98058, 0.17601, 0.0865009, -0.196117, 0.880045, 0.432502, -1.40394e-08, -0.441067, 0.897474, 1.93115, 0.126783, 2.44595)
+
+[node name="SM_tyre3" parent="." instance=ExtResource("6_dwbse")]
+transform = Transform3D(0.988617, 0.121852, 0.088257, -0.119668, 0.992371, -0.0296519, -0.0911969, 0.0187529, 0.995656, 0.959843, -0.0822468, 1.85654)
+
+[node name="SM_billboard" parent="." instance=ExtResource("7_pkg7o")]
+transform = Transform3D(-0.95654, 0, 0.291602, 0, 1, 0, -0.291602, 0, -0.95654, 6.35249, -0.992676, -24.0697)
+
+[node name="House" parent="." instance=ExtResource("8_gbfbk")]
+transform = Transform3D(0.216704, 0, -0.976237, 0, 1, 0, 0.976237, 0, 0.216704, 41.1765, 0.16586, 8.73)

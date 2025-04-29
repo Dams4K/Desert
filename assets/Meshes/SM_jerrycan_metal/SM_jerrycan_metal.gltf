@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 5898,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1619,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 1.31130219e-05, 6.10952666e-09, -7.005589e-08 ],
+			"max": [ 0.159986883, 0.473390162, 0.340000004 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1619,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1619,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1619,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1619,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_jerrycan_metal.bin",
+			"byteLength": 102460
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 11796,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19428,
+			"byteOffset": 11796,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19428,
+			"byteOffset": 31224,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 25904,
+			"byteOffset": 50652,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12952,
+			"byteOffset": 76556,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12952,
+			"byteOffset": 89508,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_BaseColor.png"
+		},
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_Occlusion.png"
+		},
+		{
+			"uri": "T_sign_rack_jerrys_can_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_jerrycan_metal",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_sign_rack_jerrys_can_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

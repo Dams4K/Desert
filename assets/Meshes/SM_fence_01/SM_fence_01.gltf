@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 9588,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 6210,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.00248900778, 0.00243306463, 0.00248604524 ],
+			"max": [ 5.25675344, 1.39378142, 1.8308804 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 6210,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 6210,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 6210,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 6210,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_fence_01.bin",
+			"byteLength": 366936
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 19176,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 74520,
+			"byteOffset": 19176,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 74520,
+			"byteOffset": 93696,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 99360,
+			"byteOffset": 168216,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 49680,
+			"byteOffset": 267576,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 49680,
+			"byteOffset": 317256,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_fence01_BaseColor.png"
+		},
+		{
+			"uri": "MI_fence01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_fence01_Occlusion.png"
+		},
+		{
+			"uri": "T_fence_01_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_fence01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_fence_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_fence01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_fence01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_fence_01_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_fence01_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

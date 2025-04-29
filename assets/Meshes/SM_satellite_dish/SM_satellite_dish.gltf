@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 3156,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 798,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, 0.000666967069, 0.00410739752 ],
+			"max": [ 1.79999995, 1.73933315, 1.08158267 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 798,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 798,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 798,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 798,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_satellite_dish.bin",
+			"byteLength": 51000
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 6312,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9576,
+			"byteOffset": 6312,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9576,
+			"byteOffset": 15888,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12768,
+			"byteOffset": 25464,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6384,
+			"byteOffset": 38232,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6384,
+			"byteOffset": 44616,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_satellite_BaseColor.png"
+		},
+		{
+			"uri": "MI_satellite_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_satellite_Occlusion.png"
+		},
+		{
+			"uri": "T_satellite_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_satellite",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_satellite_dish",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_satellite_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_satellite_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_satellite_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_satellite_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

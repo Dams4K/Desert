@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4044,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1866,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -8.22544098e-06, 0.000899080362, -0.00109448994 ],
+			"max": [ 2.4000082, 0.919807971, 2.16899753 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1866,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1866,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1866,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1866,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_solar_panel.bin",
+			"byteLength": 112584
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8088,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22392,
+			"byteOffset": 8088,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22392,
+			"byteOffset": 30480,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 29856,
+			"byteOffset": 52872,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14928,
+			"byteOffset": 82728,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14928,
+			"byteOffset": 97656,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_solar_panel_BaseColor.png"
+		},
+		{
+			"uri": "MI_solar_panel_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_solar_panel_Occlusion.png"
+		},
+		{
+			"uri": "T_solar_panel_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_solar_panel",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_solar_panel",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_solar_panel_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_solar_panel_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_solar_panel_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_solar_panel_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

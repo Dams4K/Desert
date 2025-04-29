@@ -1,0 +1,199 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4836,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 3357,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, -0.000670550275, -0.00108980213 ],
+			"max": [ 1.19999993, 1.50116158, 2.20046353 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 3357,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 3357,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 3357,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 3357,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 3357,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_stairs.bin",
+			"byteLength": 224520
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 9672,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40284,
+			"byteOffset": 9672,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40284,
+			"byteOffset": 49956,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 53712,
+			"byteOffset": 90240,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26856,
+			"byteOffset": 143952,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26856,
+			"byteOffset": 170808,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26856,
+			"byteOffset": 197664,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_stairs_BaseColor.png"
+		},
+		{
+			"uri": "MI_stairs_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_stairs_Normal.png"
+		},
+		{
+			"uri": "T_workbench_AO.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_stairs",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_stairs",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_stairs_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_stairs_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_stairs_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "T_workbench_AO",
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}

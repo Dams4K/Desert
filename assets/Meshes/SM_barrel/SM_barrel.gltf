@@ -1,0 +1,196 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 5436,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1828,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, -0.000132807196, -1.09951969e-07 ],
+			"max": [ 0.69749999, 1.01543951, 0.697499931 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1828,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1828,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1828,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1828,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_barrel.bin",
+			"byteLength": 113240
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 10872,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21936,
+			"byteOffset": 10872,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21936,
+			"byteOffset": 32808,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 29248,
+			"byteOffset": 54744,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14624,
+			"byteOffset": 83992,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14624,
+			"byteOffset": 98616,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_BaseColor.png"
+		},
+		{
+			"uri": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_Normal.png"
+		},
+		{
+			"uri": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_Occlusion.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.501960814
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_barrel",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_M_SM_barrel_MI_barrel_red_00291722CE13419CBCE6F80752BCC4C6_Occlusion",
+			"sampler": 0,
+			"source": 3
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

@@ -1,0 +1,437 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 21417,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 7364,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.012616396, 2.70809436, 0.00408734195 ],
+			"max": [ 3.88233447, 10.575963, 1.20130289 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 7364,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 7364,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 7364,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 7364,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 7364,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 7,
+			"count": 4560,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 8,
+			"count": 1546,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.00279561593, -0.0533813387, 0.0820105076 ],
+			"max": [ 4.00004196, 10.2080088, 0.760798872 ]
+		},
+		{
+			"bufferView": 9,
+			"count": 1546,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 1546,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 1546,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 12,
+			"count": 1546,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 13,
+			"count": 1546,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 14,
+			"count": 10932,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 15,
+			"count": 3966,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.285526276, -0.0188817549, 0.0898633376 ],
+			"max": [ 3.74021578, 10.5866585, 1.08477724 ]
+		},
+		{
+			"bufferView": 16,
+			"count": 3966,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 17,
+			"count": 3966,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 18,
+			"count": 3966,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 19,
+			"count": 3966,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 20,
+			"count": 3966,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_utility_pole.bin",
+			"byteLength": 897884
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 42834,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 88368,
+			"byteOffset": 42836,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 88368,
+			"byteOffset": 131204,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 117824,
+			"byteOffset": 219572,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 58912,
+			"byteOffset": 337396,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 58912,
+			"byteOffset": 396308,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 58912,
+			"byteOffset": 455220,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9120,
+			"byteOffset": 514132,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18552,
+			"byteOffset": 523252,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18552,
+			"byteOffset": 541804,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 24736,
+			"byteOffset": 560356,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12368,
+			"byteOffset": 585092,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12368,
+			"byteOffset": 597460,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12368,
+			"byteOffset": 609828,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21864,
+			"byteOffset": 622196,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 47592,
+			"byteOffset": 644060,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 47592,
+			"byteOffset": 691652,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 63456,
+			"byteOffset": 739244,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 31728,
+			"byteOffset": 802700,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 31728,
+			"byteOffset": 834428,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 31728,
+			"byteOffset": 866156,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_utility_pole_metal_BaseColor.png"
+		},
+		{
+			"uri": "MI_utility_pole_metal_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_utility_pole_metal_Normal.png"
+		},
+		{
+			"uri": "MI_utility_pole_wood_BaseColor.png"
+		},
+		{
+			"uri": "MI_utility_pole_wood_Normal.png"
+		},
+		{
+			"uri": "MI_utility_pole_rubber_BaseColor.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_utility_pole_metal",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		},
+		{
+			"name": "MI_utility_pole_wood",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 3
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"normalTexture":
+			{
+				"index": 4
+			}
+		},
+		{
+			"name": "MI_utility_pole_rubber",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 5
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.620000005
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_utility_pole",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 8,
+						"NORMAL": 9,
+						"TANGENT": 10,
+						"TEXCOORD_0": 11,
+						"TEXCOORD_1": 12,
+						"TEXCOORD_2": 13
+					},
+					"indices": 7,
+					"material": 1
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 15,
+						"NORMAL": 16,
+						"TANGENT": 17,
+						"TEXCOORD_0": 18,
+						"TEXCOORD_1": 19,
+						"TEXCOORD_2": 20
+					},
+					"indices": 14,
+					"material": 2
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_utility_pole_metal_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_utility_pole_metal_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_utility_pole_metal_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_utility_pole_wood_BaseColor",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_utility_pole_wood_Normal",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "MI_utility_pole_rubber_BaseColor",
+			"sampler": 0,
+			"source": 5
+		}
+	]
+}

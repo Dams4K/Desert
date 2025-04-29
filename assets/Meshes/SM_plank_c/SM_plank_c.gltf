@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 1332,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 847,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.00099300663, 7.8362461e-10, -7.36241867e-09 ],
+			"max": [ 2, 0.050043039, 0.199999973 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 847,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 847,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 847,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 847,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_plank_c.bin",
+			"byteLength": 50096
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2664,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10164,
+			"byteOffset": 2664,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10164,
+			"byteOffset": 12828,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13552,
+			"byteOffset": 22992,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6776,
+			"byteOffset": 36544,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6776,
+			"byteOffset": 43320,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_wood_exterior_BaseColor.png"
+		},
+		{
+			"uri": "MI_wood_exterior_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_wood_exterior_Occlusion.png"
+		},
+		{
+			"uri": "T_wood_exterior_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_wood_exterior",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_plank_c",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_wood_exterior_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_wood_exterior_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_wood_exterior_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_wood_exterior_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

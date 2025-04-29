@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dp0lt1pihwt8i"
+path.s3tc="res://.godot/imported/MI_poles_wooden_Occlusion.png-679f0d25333148dc01f32cdf2cba2c36.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://assets/Meshes/SM_post_03/MI_poles_wooden_Occlusion.png"
+dest_files=["res://.godot/imported/MI_poles_wooden_Occlusion.png-679f0d25333148dc01f32cdf2cba2c36.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=8
+roughness/src_normal="res://assets/Meshes/SM_post_03/T_poles_wooden_N.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

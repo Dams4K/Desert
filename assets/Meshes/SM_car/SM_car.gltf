@@ -1,0 +1,634 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 41442,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 9152,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.0111662149, 0.191151172, 0.0716129988 ],
+			"max": [ 1.90102792, 1.40466738, 4.66227293 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 9152,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 9152,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 9152,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 9152,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 9152,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 7,
+			"count": 42024,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 8,
+			"count": 11788,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.014747858, -0.000783102645, 0.0716127604 ],
+			"max": [ 1.89744639, 1.21568513, 4.67028475 ]
+		},
+		{
+			"bufferView": 9,
+			"count": 11788,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 10,
+			"count": 11788,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 11,
+			"count": 11788,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 12,
+			"count": 11788,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 13,
+			"count": 11788,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 14,
+			"count": 19488,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 15,
+			"count": 5549,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.059319973, 0.291740328, 0.483670026 ],
+			"max": [ 1.85287428, 1.39836454, 3.40091372 ]
+		},
+		{
+			"bufferView": 16,
+			"count": 5549,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 17,
+			"count": 5549,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 18,
+			"count": 5549,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 19,
+			"count": 5549,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 20,
+			"count": 5549,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 21,
+			"count": 21720,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 22,
+			"count": 19471,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.208147883, 0.067735292, 2.79088727e-05 ],
+			"max": [ 1.729774, 0.30998686, 4.49607801 ]
+		},
+		{
+			"bufferView": 23,
+			"count": 19471,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 24,
+			"count": 19471,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 25,
+			"count": 19471,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 26,
+			"count": 19471,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 27,
+			"count": 19471,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_car.bin",
+			"byteLength": 3190788
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 82884,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 109824,
+			"byteOffset": 82884,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 109824,
+			"byteOffset": 192708,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 146432,
+			"byteOffset": 302532,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 73216,
+			"byteOffset": 448964,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 73216,
+			"byteOffset": 522180,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 73216,
+			"byteOffset": 595396,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 84048,
+			"byteOffset": 668612,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 141456,
+			"byteOffset": 752660,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 141456,
+			"byteOffset": 894116,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 188608,
+			"byteOffset": 1035572,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 94304,
+			"byteOffset": 1224180,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 94304,
+			"byteOffset": 1318484,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 94304,
+			"byteOffset": 1412788,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 38976,
+			"byteOffset": 1507092,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 66588,
+			"byteOffset": 1546068,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 66588,
+			"byteOffset": 1612656,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 88784,
+			"byteOffset": 1679244,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 44392,
+			"byteOffset": 1768028,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 44392,
+			"byteOffset": 1812420,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 44392,
+			"byteOffset": 1856812,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 43440,
+			"byteOffset": 1901204,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 233652,
+			"byteOffset": 1944644,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 233652,
+			"byteOffset": 2178296,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 311536,
+			"byteOffset": 2411948,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 155768,
+			"byteOffset": 2723484,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 155768,
+			"byteOffset": 2879252,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 155768,
+			"byteOffset": 3035020,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_car_exterior_body_BaseColor.png"
+		},
+		{
+			"uri": "MI_car_exterior_body_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_car_exterior_body_Normal.png"
+		},
+		{
+			"uri": "MI_car_exterior_parts_BaseColor.png"
+		},
+		{
+			"uri": "MI_car_exterior_parts_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_car_interior_BaseColor.png"
+		},
+		{
+			"uri": "MI_car_interior_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_car_undercarriage_BaseColor.png"
+		},
+		{
+			"uri": "MI_car_undercarriage_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_car_undercarriage_Normal.png"
+		},
+		{
+			"uri": "T_car_exterior_part_N.png"
+		},
+		{
+			"uri": "T_car_exterior_part_ORM.png"
+		},
+		{
+			"uri": "T_car_interior_N.png"
+		},
+		{
+			"uri": "T_car_interior_ORM.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_car_exterior_body",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		},
+		{
+			"name": "MI_car_exterior_parts",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 3
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 4
+				}
+			},
+			"normalTexture":
+			{
+				"index": 5
+			},
+			"occlusionTexture":
+			{
+				"index": 6
+			}
+		},
+		{
+			"name": "MI_car_interior",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 7
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 8
+				}
+			},
+			"normalTexture":
+			{
+				"index": 9
+			},
+			"occlusionTexture":
+			{
+				"index": 10
+			}
+		},
+		{
+			"name": "MI_car_undercarriage",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 11
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 12
+				}
+			},
+			"normalTexture":
+			{
+				"index": 13
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_car",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 8,
+						"NORMAL": 9,
+						"TANGENT": 10,
+						"TEXCOORD_0": 11,
+						"TEXCOORD_1": 12,
+						"TEXCOORD_2": 13
+					},
+					"indices": 7,
+					"material": 1
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 15,
+						"NORMAL": 16,
+						"TANGENT": 17,
+						"TEXCOORD_0": 18,
+						"TEXCOORD_1": 19,
+						"TEXCOORD_2": 20
+					},
+					"indices": 14,
+					"material": 2
+				},
+				{
+					"attributes":
+					{
+						"POSITION": 22,
+						"NORMAL": 23,
+						"TANGENT": 24,
+						"TEXCOORD_0": 25,
+						"TEXCOORD_1": 26,
+						"TEXCOORD_2": 27
+					},
+					"indices": 21,
+					"material": 3
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_car_exterior_body_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_car_exterior_body_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_car_exterior_body_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_car_exterior_parts_BaseColor",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_car_exterior_parts_MetallicRoughness",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "T_car_exterior_part_N",
+			"sampler": 0,
+			"source": 10
+		},
+		{
+			"name": "T_car_exterior_part_ORM",
+			"sampler": 0,
+			"source": 11
+		},
+		{
+			"name": "MI_car_interior_BaseColor",
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"name": "MI_car_interior_MetallicRoughness",
+			"sampler": 0,
+			"source": 6
+		},
+		{
+			"name": "T_car_interior_N",
+			"sampler": 0,
+			"source": 12
+		},
+		{
+			"name": "T_car_interior_ORM",
+			"sampler": 0,
+			"source": 13
+		},
+		{
+			"name": "MI_car_undercarriage_BaseColor",
+			"sampler": 0,
+			"source": 7
+		},
+		{
+			"name": "MI_car_undercarriage_MetallicRoughness",
+			"sampler": 0,
+			"source": 8
+		},
+		{
+			"name": "MI_car_undercarriage_Normal",
+			"sampler": 0,
+			"source": 9
+		}
+	]
+}

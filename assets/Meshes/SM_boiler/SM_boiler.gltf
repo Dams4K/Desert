@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 12180,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 4529,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 8.94069672e-07, 7.60473267e-05, 1.08535619e-06 ],
+			"max": [ 0.495000869, 1.04943216, 0.510668874 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 4529,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 4529,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 4529,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 4529,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_boiler.bin",
+			"byteLength": 277984
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 24360,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 54348,
+			"byteOffset": 24360,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 54348,
+			"byteOffset": 78708,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 72464,
+			"byteOffset": 133056,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36232,
+			"byteOffset": 205520,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36232,
+			"byteOffset": 241752,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_boiler_BaseColor.png"
+		},
+		{
+			"uri": "MI_boiler_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_boiler_Occlusion.png"
+		},
+		{
+			"uri": "T_boiler_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_boiler",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_boiler",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_boiler_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_boiler_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_boiler_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_boiler_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

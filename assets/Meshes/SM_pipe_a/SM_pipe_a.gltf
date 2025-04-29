@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4896,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1388,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0211962238, 0.000339857506, -0.000120739503 ],
+			"max": [ 0.172084391, 2.79614758, 0.371436924 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1388,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1388,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1388,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1388,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_pipe_a.bin",
+			"byteLength": 87520
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 9792,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 16656,
+			"byteOffset": 9792,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 16656,
+			"byteOffset": 26448,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22208,
+			"byteOffset": 43104,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11104,
+			"byteOffset": 65312,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11104,
+			"byteOffset": 76416,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_pipes_BaseColor.png"
+		},
+		{
+			"uri": "MI_pipes_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_pipes_Occlusion.png"
+		},
+		{
+			"uri": "T_pipes_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_pipes",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_pipe_a",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_pipes_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_pipes_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_pipes_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_pipes_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 3528,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 760,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.000137520954, 0.000156295762, 0.000311777665 ],
+			"max": [ 0.0601375178, 0.435808927, 0.0603117757 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 760,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 760,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 760,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 760,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_lightbulb.bin",
+			"byteLength": 49616
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 7056,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9120,
+			"byteOffset": 7056,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9120,
+			"byteOffset": 16176,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12160,
+			"byteOffset": 25296,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6080,
+			"byteOffset": 37456,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6080,
+			"byteOffset": 43536,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_electric_boxes_lightbulb_BaseColor.png"
+		},
+		{
+			"uri": "MI_electric_boxes_lightbulb_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_electric_boxes_lightbulb_Occlusion.png"
+		},
+		{
+			"uri": "T_electric_boxes_lightbulb_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_electric_boxes_lightbulb",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_lightbulb",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_electric_boxes_lightbulb_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_electric_boxes_lightbulb_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_electric_boxes_lightbulb_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_electric_boxes_lightbulb_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

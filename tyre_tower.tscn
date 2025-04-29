@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwkfancfcmwbd"]
+
+[ext_resource type="PackedScene" uid="uid://wd01rarem7v5" path="res://assets/Meshes/SM_tyre/SM_tyre.gltf" id="1_71c0t"]
+
+[node name="TyreTower1" type="Node3D"]
+
+[node name="SM_tyre" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0191832, 0, -0.0255771)
+
+[node name="SM_tyre2" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(0.731079, 0, -0.682293, 0, 1, 0, 0.682293, 0, 0.731079, 0.0319715, 0.304823, 0.0511546)
+
+[node name="SM_tyre3" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-0.0476506, 0, 0.998864, 0, 1, 0, 0.998864, 0, 0.0476506, -0.0255775, 0.594856, -0.0383658)
+
+[node name="SM_tyre4" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-0.543874, -4.7547e-08, 0.839167, 8.74228e-08, -1, 0, 0.839167, 7.33623e-08, 0.543874, 0.0447607, 1.18229, 0)
+
+[node name="SM_tyre5" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-1, -8.74228e-08, 0, 8.74228e-08, -1, 0, 0, 0, 1, 0.0208893, 2.37546, 0.0120609)
+
+[node name="SM_tyre6" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-0.731079, -8.74228e-08, 0.682293, 6.39129e-08, -1, -5.96479e-08, 0.682293, 0, 0.731079, -0.0172046, 2.07064, -0.0385337)
+
+[node name="SM_tyre7" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(0.0476506, -8.74228e-08, -0.998864, -4.16575e-09, -1, 8.73235e-08, 0.998864, 0, 0.0476506, 0.0472781, 1.78156, 0.0160093)
+
+[node name="SM_tyre10" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-0.654361, -8.69269e-08, 0.756182, 6.39129e-08, -1, -5.96479e-08, 0.756182, 9.29851e-09, 0.654361, 0.00625825, 2.93956, -0.0233719)
+
+[node name="SM_tyre12" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(-0.365518, -7.8882e-08, 0.930804, 6.39129e-08, -1, -5.96479e-08, 0.930804, 3.7688e-08, 0.365518, 0.019047, 3.22091, 0.0213883)
+
+[node name="SM_tyre11" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(0.153622, -8.69269e-08, -0.98813, -4.16575e-09, -1, 8.73235e-08, 0.98813, 9.29852e-09, 0.153622, -0.0135791, 2.65593, 0.0246407)
+
+[node name="SM_tyre8" parent="." instance=ExtResource("1_71c0t")]
+transform = Transform3D(0.543874, 1.3497e-07, -0.839167, -1.3497e-07, 1, 7.33623e-08, 0.839167, 7.33623e-08, 0.543874, -0.0385768, 1.18731, -0.0472348)

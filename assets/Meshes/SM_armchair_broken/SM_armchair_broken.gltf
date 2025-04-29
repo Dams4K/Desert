@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 5340,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1863,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.086125657, -0.000521670154, -0.0325977728 ],
+			"max": [ 0.786501229, 0.864228368, 0.936957002 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1863,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1863,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1863,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1863,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_armchair_broken.bin",
+			"byteLength": 115008
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 10680,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22356,
+			"byteOffset": 10680,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22356,
+			"byteOffset": 33036,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 29808,
+			"byteOffset": 55392,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14904,
+			"byteOffset": 85200,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14904,
+			"byteOffset": 100104,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_armchair_BaseColor.png"
+		},
+		{
+			"uri": "MI_armchair_MetallicRoughness.png"
+		},
+		{
+			"uri": "T_armchair_N.png"
+		},
+		{
+			"uri": "T_armchair_ORM.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_armchair",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_armchair_broken",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_armchair_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_armchair_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_armchair_N",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "T_armchair_ORM",
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}

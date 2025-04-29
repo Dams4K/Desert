@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 1197,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 841,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.00201889453, -0.0108259162, -0.0239229836 ],
+			"max": [ 3.00413465, 0.101241268, 0.240850791 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 841,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 841,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 841,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 841,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_post_02.bin",
+			"byteLength": 49492
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2394,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10092,
+			"byteOffset": 2396,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10092,
+			"byteOffset": 12488,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13456,
+			"byteOffset": 22580,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6728,
+			"byteOffset": 36036,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6728,
+			"byteOffset": 42764,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_poles_wooden_BaseColor.png"
+		},
+		{
+			"uri": "MI_poles_wooden_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_poles_wooden_Occlusion.png"
+		},
+		{
+			"uri": "T_poles_wooden_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_poles_wooden",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_post_02",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_poles_wooden_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_poles_wooden_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_poles_wooden_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_poles_wooden_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

@@ -1,0 +1,187 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 186,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 120,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, 8.14603995e-10, -4.84222085e-07 ],
+			"max": [ 1.5, 3, 0.0999999866 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 120,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 120,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 120,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 120,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_wall_door.bin",
+			"byteLength": 6908
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 186,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 188,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 1628,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1920,
+			"byteOffset": 3068,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"byteOffset": 4988,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"byteOffset": 5948,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_concrete_BaseColor.png"
+		},
+		{
+			"uri": "MI_concrete_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_concrete_Normal.png"
+		},
+		{
+			"uri": "MI_concrete_Occlusion.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_concrete",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			},
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_wall_door",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_concrete_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_concrete_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_concrete_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_concrete_Occlusion",
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}

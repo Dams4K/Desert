@@ -1,0 +1,181 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4458,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1766,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -1.03460312, -0.0107365698, -0.56610775 ],
+			"max": [ 1.21066165, 0.299867928, 1.21057343 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1766,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1766,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1766,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1766,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_trash.bin",
+			"byteLength": 107812
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8916,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21192,
+			"byteOffset": 8916,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21192,
+			"byteOffset": 30108,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 28256,
+			"byteOffset": 51300,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14128,
+			"byteOffset": 79556,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14128,
+			"byteOffset": 93684,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_trash_BaseColor.png"
+		},
+		{
+			"uri": "T_trash_ORM.png"
+		},
+		{
+			"uri": "T_trash_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_trash",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 1
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_trash",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_trash_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "T_trash_ORM",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_trash_N",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

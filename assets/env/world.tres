@@ -1,0 +1,20 @@
+[gd_resource type="Environment" load_steps=2 format=3 uid="uid://b1ym4oiy75jip"]
+
+[ext_resource type="Sky" uid="uid://b6ffjku47471j" path="res://cloud_sky/clouds_sky.tres" id="1_ogsvs"]
+
+[resource]
+background_mode = 2
+background_energy_multiplier = 3.0
+sky = ExtResource("1_ogsvs")
+tonemap_mode = 4
+tonemap_exposure = 1.1
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.966381, 0.879575, 0.788176, 1)
+fog_light_energy = 0.3
+fog_density = 0.0003
+fog_aerial_perspective = 0.37
+fog_sky_affect = 0.1
+adjustment_enabled = true
+adjustment_contrast = 1.2
+adjustment_saturation = 1.4

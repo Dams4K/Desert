@@ -1,0 +1,199 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 684,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 471,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 5.96046448e-08, 7.58966863e-08, -1.21375905e-07 ],
+			"max": [ 1.5, 0.750000119, 0.799999833 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 471,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 471,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 471,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 471,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 471,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_table.bin",
+			"byteLength": 31512
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1368,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5652,
+			"byteOffset": 1368,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5652,
+			"byteOffset": 7020,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7536,
+			"byteOffset": 12672,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3768,
+			"byteOffset": 20208,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3768,
+			"byteOffset": 23976,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3768,
+			"byteOffset": 27744,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_chair_table_BaseColor.png"
+		},
+		{
+			"uri": "MI_chair_table_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_chair_table_Occlusion.png"
+		},
+		{
+			"uri": "T_chair_table_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_chair_table",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_table",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_chair_table_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_chair_table_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_chair_table_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_chair_table_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

@@ -1,0 +1,186 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 354,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 153,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, 8.14603218e-10, 0.00499975542 ],
+			"max": [ 0.669999897, 1.50669825, 0.0549998358 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 153,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 153,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 153,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 153,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_road_sign.bin",
+			"byteLength": 8924
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 354,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1836,
+			"byteOffset": 356,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1836,
+			"byteOffset": 2192,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2448,
+			"byteOffset": 4028,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1224,
+			"byteOffset": 6476,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1224,
+			"byteOffset": 7700,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_BaseColor.png"
+		},
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_sign_rack_jerrys_cans_bottle_Occlusion.png"
+		},
+		{
+			"uri": "T_sign_rack_jerrys_can_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_road_sign",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_sign_rack_jerrys_can_N",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "MI_sign_rack_jerrys_cans_bottle_Occlusion",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

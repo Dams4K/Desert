@@ -1,0 +1,193 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 19740,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 3408,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0.0210461617, 0.00475625042, -4.59275532 ],
+			"max": [ 2.3930757, 1.3968904, 0.000372423325 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 3408,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 3408,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 3408,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 3408,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 6,
+			"count": 3408,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_cloth_workbench.bin",
+			"byteLength": 257592
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 39480,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40896,
+			"byteOffset": 39480,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40896,
+			"byteOffset": 80376,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 54528,
+			"byteOffset": 121272,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27264,
+			"byteOffset": 175800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27264,
+			"byteOffset": 203064,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27264,
+			"byteOffset": 230328,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_tarp_Occlusion.png"
+		},
+		{
+			"uri": "T_tarp_ORM.png"
+		},
+		{
+			"uri": "T_tarp_N.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_tarp",
+			"pbrMetallicRoughness":
+			{
+				"metallicRoughnessTexture":
+				{
+					"index": 0,
+					"texCoord": 2
+				}
+			},
+			"normalTexture":
+			{
+				"index": 1,
+				"texCoord": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 2,
+				"texCoord": 2
+			},
+			"alphaMode": "MASK",
+			"alphaCutoff": 0.333299994,
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_cloth_workbench",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5,
+						"TEXCOORD_2": 6
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "T_tarp_ORM",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_tarp_N",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MI_tarp_Occlusion",
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

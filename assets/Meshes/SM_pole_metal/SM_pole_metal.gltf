@@ -1,0 +1,174 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 1812,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1219,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.00352888764, 2.0279842e-11, -0.00686542317 ],
+			"max": [ 0.107952878, 3, 0.0579135679 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1219,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1219,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1219,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 1219,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_pole_metal.bin",
+			"byteLength": 71888
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3624,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14628,
+			"byteOffset": 3624,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14628,
+			"byteOffset": 18252,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19504,
+			"byteOffset": 32880,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9752,
+			"byteOffset": 52384,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9752,
+			"byteOffset": 62136,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_GratingframePole_BaseColor.png"
+		},
+		{
+			"uri": "MI_GratingframePole_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_GratingframePole_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_GratingframePole",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_pole_metal",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_GratingframePole_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_GratingframePole_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_GratingframePole_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}
