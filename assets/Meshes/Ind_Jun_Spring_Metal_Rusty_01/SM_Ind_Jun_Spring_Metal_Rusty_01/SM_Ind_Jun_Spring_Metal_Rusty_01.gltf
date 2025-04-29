@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 8964,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 2231,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0794865862, -0.0410070904, -0.0403294303 ],
+			"max": [ 0.0794927403, 0.0413480364, 0.0400596485 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 2231,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 2231,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 2231,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Jun_Spring_Metal_Rusty_01.bin",
+			"byteLength": 125016
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 17928,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26772,
+			"byteOffset": 17928,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26772,
+			"byteOffset": 44700,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 35696,
+			"byteOffset": 71472,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17848,
+			"byteOffset": 107168,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Jun_Spring_Metal_Rusty_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Spring_Metal_Rusty_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Spring_Metal_Rusty_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Jun_Spring_Metal_Rusty_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Jun_Spring_Metal_Rusty_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Jun_Spring_Metal_Rusty_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Jun_Spring_Metal_Rusty_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Jun_Spring_Metal_Rusty_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

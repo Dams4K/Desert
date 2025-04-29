@@ -15,6 +15,10 @@ run/main_scene="uid://x24tnpg10g16"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Commands="*res://tools/commands.gd"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/fbximporter/plugin.cfg", "res://addons/terrain_3d/plugin.cfg")

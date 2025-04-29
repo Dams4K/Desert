@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 6036,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1166,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.220365897, 0.496163309, -0.218070135 ],
+			"max": [ 0.219726875, 0.603042364, 0.218847141 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1166,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1166,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1166,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Urb_Str_Bin_Trash_Metal_Worn_01_A.bin",
+			"byteLength": 68040
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 12072,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13992,
+			"byteOffset": 12072,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13992,
+			"byteOffset": 26064,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18656,
+			"byteOffset": 40056,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9328,
+			"byteOffset": 58712,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Urb_Str_Bin_Trash_Metal_Worn_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Urb_Str_Bin_Trash_Metal_Worn_01_A",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Urb_Str_Bin_Trash_Metal_Worn_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

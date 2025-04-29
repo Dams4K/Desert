@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 7002,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1394,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.157390669, -0.00193870172, -0.136103034 ],
+			"max": [ 0.160780057, 0.46813944, 0.136181712 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1394,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1394,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1394,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Jun_Container_Plastic_Worn_01.bin",
+			"byteLength": 80916
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 14004,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 16728,
+			"byteOffset": 14004,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 16728,
+			"byteOffset": 30732,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22304,
+			"byteOffset": 47460,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11152,
+			"byteOffset": 69764,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Jun_Container_Plastic_Worn_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Container_Plastic_Worn_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Container_Plastic_Worn_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Jun_Container_Plastic_Worn_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Jun_Container_Plastic_Worn_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Jun_Container_Plastic_Worn_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Jun_Container_Plastic_Worn_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Jun_Container_Plastic_Worn_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

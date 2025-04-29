@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 96564,
+			"type": "SCALAR",
+			"componentType": 5125
+		},
+		{
+			"bufferView": 1,
+			"count": 96558,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0913368613, -0.297118366, -0.299386442 ],
+			"max": [ 0.0138923498, 0.297392309, 0.303387493 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 96558,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 96558,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 96558,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Jun_Fan_Metal_Rusty_01.bin",
+			"byteLength": 5021040
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 386256,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1158696,
+			"byteOffset": 386256,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1158696,
+			"byteOffset": 1544952,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1544928,
+			"byteOffset": 2703648,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 772464,
+			"byteOffset": 4248576,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Jun_Fan_Metal_Rusty_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Fan_Metal_Rusty_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Fan_Metal_Rusty_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Jun_Fan_Metal_Rusty_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Jun_Fan_Metal_Rusty_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Jun_Fan_Metal_Rusty_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Jun_Fan_Metal_Rusty_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Jun_Fan_Metal_Rusty_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

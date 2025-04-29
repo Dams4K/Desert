@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://w0xjjc8vq74h"
+path.s3tc="res://.godot/imported/MI_Ind_Aba_Tank_Gas_Metal_Worn_02_Normal.png-7ca61edb289d43f19e812c4fdb2d9284.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://assets/Meshes/Ind_Aba_Tank_Gas_Metal_Worn_02/SM_Ind_Aban_Tank_Gas_Metal_Worn_02/MI_Ind_Aba_Tank_Gas_Metal_Worn_02_Normal.png"
+dest_files=["res://.godot/imported/MI_Ind_Aba_Tank_Gas_Metal_Worn_02_Normal.png-7ca61edb289d43f19e812c4fdb2d9284.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://assets/Meshes/Ind_Aba_Tank_Gas_Metal_Worn_02/SM_Ind_Aban_Tank_Gas_Metal_Worn_02/MI_Ind_Aba_Tank_Gas_Metal_Worn_02_Normal.png"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

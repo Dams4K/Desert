@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 3810,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 817,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0978849903, -0.100169949, -0.0887335762 ],
+			"max": [ 0.0975497961, 0.10042759, 0.0890066624 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 817,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 817,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 817,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Sto_PaintCan_Metal_Worn_03.bin",
+			"byteLength": 46836
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 7620,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9804,
+			"byteOffset": 7620,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9804,
+			"byteOffset": 17424,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13072,
+			"byteOffset": 27228,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6536,
+			"byteOffset": 40300,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Sto_PaintCan_Metal_Worn_03_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Sto_PaintCan_Metal_Worn_03_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Sto_PaintCan_Metal_Worn_03_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Sto_PaintCan_Metal_Worn_03",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Sto_PaintCan_Metal_Worn_03",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Sto_PaintCan_Metal_Worn_03_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Sto_PaintCan_Metal_Worn_03_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Sto_PaintCan_Metal_Worn_03_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 4482,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 889,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0798564926, -0.0601158477, -0.0673830137 ],
+			"max": [ 0.0803547055, 0.060223598, 0.0669747218 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 889,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 889,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 889,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_For_Sca_Rock_Set_01_B.bin",
+			"byteLength": 51636
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8964,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10668,
+			"byteOffset": 8964,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10668,
+			"byteOffset": 19632,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14224,
+			"byteOffset": 30300,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7112,
+			"byteOffset": 44524,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_For_Sca_Rock_Set_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_For_Sca_Rock_Set_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_For_Sca_Rock_Set_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_For_Sca_Rock_Set_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_For_Sca_Rock_Set_01_B",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_For_Sca_Rock_Set_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_For_Sca_Rock_Set_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_For_Sca_Rock_Set_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

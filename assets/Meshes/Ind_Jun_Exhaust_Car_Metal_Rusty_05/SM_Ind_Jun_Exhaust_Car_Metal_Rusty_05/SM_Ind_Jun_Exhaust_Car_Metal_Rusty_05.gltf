@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 11562,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 2723,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.51105392, -0.0594035089, -0.0843021274 ],
+			"max": [ 0.513557076, 0.0678890422, 0.0838205442 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 2723,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 2723,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 2723,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Jun_Exhaust_Car_Metal_Rusty_05.bin",
+			"byteLength": 153828
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 23124,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32676,
+			"byteOffset": 23124,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32676,
+			"byteOffset": 55800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 43568,
+			"byteOffset": 88476,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21784,
+			"byteOffset": 132044,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Jun_Exhaust_Car_Metal_Rusty_05",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Jun_Exhaust_Car_Metal_Rusty_05_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

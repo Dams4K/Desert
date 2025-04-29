@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 7164,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1433,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.309260368, -0.00633743266, -0.329400599 ],
+			"max": [ 0.310293257, 0.867317259, 0.335380465 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1433,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1433,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1433,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Aba_Storage_Barrel_Metal_Buckled_01.bin",
+			"byteLength": 83112
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 14328,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17196,
+			"byteOffset": 14328,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17196,
+			"byteOffset": 31524,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22928,
+			"byteOffset": 48720,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11464,
+			"byteOffset": 71648,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Aba_Storage_Barrel_Metal_Buckled_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Aba_Storage_Barrel_Metal_Buckled_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

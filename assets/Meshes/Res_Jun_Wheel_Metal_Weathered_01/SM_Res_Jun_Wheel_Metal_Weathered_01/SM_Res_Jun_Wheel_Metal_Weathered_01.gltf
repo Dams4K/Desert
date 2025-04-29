@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 192696,
+			"type": "SCALAR",
+			"componentType": 5125
+		},
+		{
+			"bufferView": 1,
+			"count": 192692,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.313600749, -0.0128527423, -0.311775476 ],
+			"max": [ 0.313625395, 0.197976336, 0.31210795 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 192692,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 192692,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 192692,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Res_Jun_Wheel_Metal_Weathered_01.bin",
+			"byteLength": 10020000
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 770784,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2312304,
+			"byteOffset": 770784,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2312304,
+			"byteOffset": 3083088,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3083072,
+			"byteOffset": 5395392,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1541536,
+			"byteOffset": 8478464,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_BaseColor.png"
+		},
+		{
+			"uri": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Res_Jun_Wheel_Metal_Weathered_01_A",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Res_Jun_Wheel_Metal_Weathered_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Res_Jun_Wheel_Metal_Weathered_01_A_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

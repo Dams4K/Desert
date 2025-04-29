@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 50232,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 10693,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.280719131, -0.0018289272, -0.247438714 ],
+			"max": [ 0.224983767, 0.172469467, 0.255144268 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 10693,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 10693,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 10693,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Fac_Chain_Pile_Metal_Rusty_01.bin",
+			"byteLength": 613728
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 100464,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 128316,
+			"byteOffset": 100464,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 128316,
+			"byteOffset": 228780,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 171088,
+			"byteOffset": 357096,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 85544,
+			"byteOffset": 528184,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Fac_Chain_Pile_Metal_Rusty_01",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Fac_Chain_Pile_Metal_Rusty_01_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.5.3"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 6402,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 1326,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0551272146, -0.100399807, -0.0293870326 ],
+			"max": [ 0.0550551862, 0.100424647, 0.0295065437 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 1326,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 1326,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 1326,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Ind_Con_Oil_Plastic_Pack_02_A.bin",
+			"byteLength": 76452
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 12804,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 15912,
+			"byteOffset": 12804,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 15912,
+			"byteOffset": 28716,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21216,
+			"byteOffset": 44628,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10608,
+			"byteOffset": 65844,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MI_Ind_Con_Oil_Plastic_Pack_02_BaseColor.png"
+		},
+		{
+			"uri": "MI_Ind_Con_Oil_Plastic_Pack_02_MetallicRoughness.png"
+		},
+		{
+			"uri": "MI_Ind_Con_Oil_Plastic_Pack_02_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MI_Ind_Con_Oil_Plastic_Pack_02",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"extensions":
+			{
+				"KHR_materials_specular":
+				{
+					"specularFactor": 0.498039246
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Ind_Con_Oil_Plastic_Pack_02_A",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MI_Ind_Con_Oil_Plastic_Pack_02_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MI_Ind_Con_Oil_Plastic_Pack_02_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MI_Ind_Con_Oil_Plastic_Pack_02_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	]
+}
